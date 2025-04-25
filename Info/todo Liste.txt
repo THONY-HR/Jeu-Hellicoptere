@@ -1,0 +1,28 @@
+Helicoptere game
+    (x)-Connexion Base de donner : Mysql : Helicoptera
+        (x)-Table:
+                *Coordonner
+                    -idCoordonner
+                    -typeCoordonner
+                    -x1
+                    -x2
+                    -y1
+                    -y2 
+        (x)-inserer Donner
+    -Cree fenetre Pour le jeu
+        (x)-Fenetre 
+        (x)-Point A et B
+            *A : Depart 
+            *B : Arriver
+            *Coordonner : stocker anaty Bdd
+       (...)*collision
+        (x)-Obstacle : Fix
+            *Coordonner : stocker anaty Bdd
+            (...)*collision
+        -Helicoptera
+            *Coordonner sur le Point A
+            *pesanteur
+            *direction
+                >Key listner
+            *collision
+    

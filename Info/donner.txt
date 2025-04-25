@@ -1,0 +1,12 @@
+Coordonner Point
+    -typeCoordonner = 1;
+    -Point A : (x1,x2,y1,y2) = 0,150,650,700
+    -Point B : (x1,x2,y1,y2) = 1350,1500,200,250
+Coordonner Obstacle
+    -typeCoordonner = 0;
+    -(x1,x2,y1,y2) = 375,425,200,800
+    -(x1,x2,y1,y2) = 425,700,250,300
+    -(x1,x2,y1,y2) = 900,950,0,600
+    -(x1,x2,y1,y2) = 625,900,500,550
+
+<= 3*taille 4point
